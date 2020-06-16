@@ -1,0 +1,39 @@
+.nav {
+    grid-area: n;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a.active {
+    color: gold;
+}
+
+.friendTitle {
+    color: #fff;
+    font-weight: 400;
+}
+
+.friendsList {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.friendsItem {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.friendsItemAvatar {
+    width: 40px;
+}
+
+.friendsItemName {
+    color: #fff;
+    font-weight: 500;
+}
